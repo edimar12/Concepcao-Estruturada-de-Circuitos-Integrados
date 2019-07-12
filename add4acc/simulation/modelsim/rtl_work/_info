@@ -1,0 +1,113 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Edimar\Desktop\ceci 2018\add4acc\simulation\modelsim
+vacc
+Z1 Mx1 6 sv_std 3 std
+Z2 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+I9J[@MZD=jeZ9VIf9aCSzF0
+V52Q=J5RHe<:FSIakdVeiD0
+S1
+w1524432023
+8C:/Users/Edimar/Desktop/ceci 2018/add4acc/acc/acc.sv
+FC:/Users/Edimar/Desktop/ceci 2018/add4acc/acc/acc.sv
+L0 1
+Z3 OV;L;6.5b;42
+r1
+31
+Z4 o-sv -work work -O0
+!s100 Iaj^d[Be=NHDiIRER`omC1
+!s85 0
+!s101 -O0
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/add4acc/acc} -O0
+vaddacc
+R1
+R2
+Il:Q0=Y2m[NF5OO8@LGoPQ2
+VLiCTib4HDFRQZ3g6EGNn[1
+S1
+w1524532388
+8C:/Users/Edimar/Desktop/ceci 2018/add4acc/addacc.sv
+FC:/Users/Edimar/Desktop/ceci 2018/add4acc/addacc.sv
+L0 1
+R3
+r1
+31
+R4
+!s100 b55LdIWQmcDH5S6i]P<>W1
+!s85 0
+!s101 -O0
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/add4acc} -O0
+vaddacc_tb
+R1
+R2
+!s100 GOoYnTCM:;YmZHLm4Waj:3
+IU9A?ACfM;:HHYK4H@Ld;S3
+Vmf[C<:eIQA`>c5e26TVA31
+S1
+w1524536361
+8C:/Users/Edimar/Desktop/ceci 2018/add4acc/testbench/addacc_tb.sv
+FC:/Users/Edimar/Desktop/ceci 2018/add4acc/testbench/addacc_tb.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s101 -O0
+R4
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/add4acc/testbench} -O0
+vinv
+R1
+R2
+Ic=^`=E8<3knkcBTCkdCHM2
+VAa551c4U][gOM;MLgeOAP0
+S1
+w1523499837
+8C:/Users/Edimar/Desktop/ceci 2018/add4acc/inv/inv.sv
+FC:/Users/Edimar/Desktop/ceci 2018/add4acc/inv/inv.sv
+L0 1
+R3
+r1
+31
+R4
+!s100 R7>3W6l<3JFZc_O>dDW?K3
+!s85 0
+!s101 -O0
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/add4acc/inv} -O0
+vmux2
+R1
+R2
+I^<bDlKSN46dkJe1LZl5Y63
+V5f^5V]V?^kJZHi19]j^HK0
+S1
+w1523486701
+8C:/Users/Edimar/Desktop/ceci 2018/add4acc/mux2/mux2.sv
+FC:/Users/Edimar/Desktop/ceci 2018/add4acc/mux2/mux2.sv
+L0 1
+R3
+r1
+31
+R4
+!s100 oNaCfAcg]W3@oG@A?7]OR3
+!s85 0
+!s101 -O0
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/add4acc/mux2} -O0
+vsum
+R1
+R2
+IVR@:4`cR<=nj=Kl[O7ZLD3
+VBYX5HaAP^QS7nQOgS6NN;3
+S1
+w1524523918
+8C:/Users/Edimar/Desktop/ceci 2018/add4acc/sum/sum.sv
+FC:/Users/Edimar/Desktop/ceci 2018/add4acc/sum/sum.sv
+L0 1
+R3
+r1
+31
+R4
+!s100 ejJLd9?]D[TOL9hYZ[M7f0
+!s85 0
+!s101 -O0
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/add4acc/sum} -O0

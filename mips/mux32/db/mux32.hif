@@ -1,0 +1,232 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+12
+3700
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+mux32
+# storage
+db|mux32.(0).cnf
+db|mux32.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+mux32.sv
+b9853f8fbd33e3ec5da64c8be6b44
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+N
+32
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+mux4
+# storage
+db|mux32.(5).cnf
+db|mux32.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+|users|edimar|desktop|ceci 2018|mips|mux4|mux4.sv
+4153248aa1f5584c017fadf33a3e14
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+N
+32
+PARAMETER_SIGNED_DEC
+USR
+}
+# hierarchies {
+mux8:lowmux8|mux4:lowmux4
+mux8:lowmux8|mux4:highmux4
+mux8:highmux8|mux4:lowmux4
+mux8:highmux8|mux4:highmux4
+mux8:moremux8|mux4:lowmux4
+mux8:moremux8|mux4:highmux4
+mux8:moreemux8|mux4:lowmux4
+mux8:moreemux8|mux4:highmux4
+mux4:finalmux4
+}
+# macro_sequence
+
+# end
+# entity
+mux2
+# storage
+db|mux32.(6).cnf
+db|mux32.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+|users|edimar|desktop|ceci 2018|mips|mux2|mux2.sv
+b15773a93aba4c73051cac7103524d
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+N
+32
+PARAMETER_SIGNED_DEC
+USR
+}
+# hierarchies {
+mux8:lowmux8|mux4:lowmux4|mux2:mux2_1
+mux8:lowmux8|mux4:lowmux4|mux2:mux2_2
+mux8:lowmux8|mux4:lowmux4|mux2:mux2_out
+mux8:lowmux8|mux4:highmux4|mux2:mux2_1
+mux8:lowmux8|mux4:highmux4|mux2:mux2_2
+mux8:lowmux8|mux4:highmux4|mux2:mux2_out
+mux8:lowmux8|mux2:finalmux4
+mux8:highmux8|mux4:lowmux4|mux2:mux2_1
+mux8:highmux8|mux4:lowmux4|mux2:mux2_2
+mux8:highmux8|mux4:lowmux4|mux2:mux2_out
+mux8:highmux8|mux4:highmux4|mux2:mux2_1
+mux8:highmux8|mux4:highmux4|mux2:mux2_2
+mux8:highmux8|mux4:highmux4|mux2:mux2_out
+mux8:highmux8|mux2:finalmux4
+mux8:moremux8|mux4:lowmux4|mux2:mux2_1
+mux8:moremux8|mux4:lowmux4|mux2:mux2_2
+mux8:moremux8|mux4:lowmux4|mux2:mux2_out
+mux8:moremux8|mux4:highmux4|mux2:mux2_1
+mux8:moremux8|mux4:highmux4|mux2:mux2_2
+mux8:moremux8|mux4:highmux4|mux2:mux2_out
+mux8:moremux8|mux2:finalmux4
+mux8:moreemux8|mux4:lowmux4|mux2:mux2_1
+mux8:moreemux8|mux4:lowmux4|mux2:mux2_2
+mux8:moreemux8|mux4:lowmux4|mux2:mux2_out
+mux8:moreemux8|mux4:highmux4|mux2:mux2_1
+mux8:moreemux8|mux4:highmux4|mux2:mux2_2
+mux8:moreemux8|mux4:highmux4|mux2:mux2_out
+mux8:moreemux8|mux2:finalmux4
+mux4:finalmux4|mux2:mux2_1
+mux4:finalmux4|mux2:mux2_2
+mux4:finalmux4|mux2:mux2_out
+}
+# macro_sequence
+
+# end
+# entity
+mux8
+# storage
+db|mux32.(4).cnf
+db|mux32.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+|users|edimar|desktop|ceci 2018|mips|mux8|mux8.sv
+b4791b5e3811648cf56b5e5ea127739
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+N
+32
+PARAMETER_SIGNED_DEC
+USR
+}
+# hierarchies {
+mux8:lowmux8
+mux8:highmux8
+mux8:moremux8
+mux8:moreemux8
+}
+# macro_sequence
+
+# end
+# complete
+

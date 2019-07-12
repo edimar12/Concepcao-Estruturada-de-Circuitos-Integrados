@@ -1,0 +1,41 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Edimar\Desktop\ceci 2018\add4acc\sum\simulation\modelsim
+vsum
+Z1 Mx1 6 sv_std 3 std
+Z2 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+IVR@:4`cR<=nj=Kl[O7ZLD3
+VBYX5HaAP^QS7nQOgS6NN;3
+S1
+w1524523918
+8C:/Users/Edimar/Desktop/ceci 2018/add4acc/sum/sum.sv
+FC:/Users/Edimar/Desktop/ceci 2018/add4acc/sum/sum.sv
+L0 1
+Z3 OV;L;6.5b;42
+r1
+31
+Z4 o-sv -work work -O0
+!s100 ejJLd9?]D[TOL9hYZ[M7f0
+!s85 0
+!s101 -O0
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/add4acc/sum} -O0
+vsum_tb
+R1
+R2
+!s100 D4d;MgFRSm6mNR3GZ^I6S3
+Ib^3a_1cBdA^4N?C5J1BMP3
+V2?P8]h=MANAI^?0lTLeF=1
+S1
+w1524533357
+8C:/Users/Edimar/Desktop/ceci 2018/add4acc/sum/testbench/sum_tb.sv
+FC:/Users/Edimar/Desktop/ceci 2018/add4acc/sum/testbench/sum_tb.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s101 -O0
+R4
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/add4acc/sum/testbench} -O0

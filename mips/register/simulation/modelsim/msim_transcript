@@ -1,0 +1,122 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do register_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {register_6_1200mv_0c_slow.vo}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# 
+# vlog -sv -work work +incdir+C:/Users/Edimar/Desktop/ceci\ 2018/mips/register/testbench {C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module reg_tb
+# 
+# Top level modules:
+# 	reg_tb
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc" tb
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps tb 
+# ** Error: (vsim-3170) Could not find 'C:\Users\Edimar\Desktop\ceci 2018\mips\register\simulation\modelsim\gate_work.tb'.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./register_run_msim_gate_verilog.do PAUSED at line 12
+vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps gate_work.reg_tb
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps gate_work.reg_tb 
+# Loading sv_std.std
+# Loading gate_work.reg_tb
+# Loading gate_work.register
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from register_6_1200mv_0c_v_slow.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from register_6_1200mv_0c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /reg_tb  File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv
+add wave sim:/reg_tb/*
+run -all
+# starting Test_bench
+# 0000000000000000000000000000000000000000000000000000000000000000000
+# ** Error: counter=         0  y          0=0  y_esperado          0  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y          1=0  y_esperado          1  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y          2=0  y_esperado          2  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y          3=0  y_esperado          3  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y          4=0  y_esperado          4  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y          5=0  y_esperado          5  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y          6=0  y_esperado          6  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y          7=0  y_esperado          7  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y          8=0  y_esperado          8  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y          9=0  y_esperado          9  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         10=0  y_esperado         10  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         11=0  y_esperado         11  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         12=0  y_esperado         12  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         13=0  y_esperado         13  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         14=0  y_esperado         14  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         15=0  y_esperado         15  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         16=0  y_esperado         16  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         17=0  y_esperado         17  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         18=0  y_esperado         18  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         19=0  y_esperado         19  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         20=0  y_esperado         20  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         21=0  y_esperado         21  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         22=0  y_esperado         22  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         23=0  y_esperado         23  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         24=0  y_esperado         24  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         25=0  y_esperado         25  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         26=0  y_esperado         26  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         27=0  y_esperado         27  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         28=0  y_esperado         28  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         29=0  y_esperado         29  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         30=0  y_esperado         30  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# ** Error: counter=         0  y         31=0  y_esperado         31  =x
+#    Time: 10 ns  Scope: reg_tb File: C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv Line: 49
+# número de testes efetuados=       128
+# número de erros encontrados=        32
+# teste encerrado com testvector=0000000000000000000000000000111111100000000000000000000000000000000
+# Break in Module reg_tb at C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv line 59

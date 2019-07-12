@@ -1,0 +1,38 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Edimar\Desktop\ceci 2018\mips\register\simulation\modelsim
+vreg_tb
+Mx1 6 sv_std 3 std
+DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+!s100 bX65YH@LPg6BhbmPedA0K2
+IQFbX;8`bf4nGQ_L>2=Gzb2
+VAkc5oNlH0mzRbC4IT_E1R1
+S1
+w1526512284
+8C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv
+FC:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench/reg_tb.sv
+L0 1
+Z1 OV;L;6.5b;42
+r1
+!s85 0
+31
+!s101 -O0
+o-sv -work work -O0
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/mips/register/testbench} -O0
+vregister
+I2cek0V5cS39;1:a6PH[GX0
+VSY4gc>OUk?8T3N4oMT7f12
+w1526512307
+8register_6_1200mv_0c_slow.vo
+Fregister_6_1200mv_0c_slow.vo
+L0 31
+R1
+r1
+31
+o-vlog01compat -work work -O0
+!s100 F8YhjZ:_JA5dK`]L1?]]E1
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0

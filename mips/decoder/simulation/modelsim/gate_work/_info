@@ -1,0 +1,38 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Edimar\Desktop\ceci 2018\mips\decoder\simulation\modelsim
+vdecoder
+IM?E;g6JXgX^[E7O?=Hm[A1
+V8JzWg7f02Q08F1?UESV:e1
+w1527555058
+8decoder_min_1200mv_0c_fast.vo
+Fdecoder_min_1200mv_0c_fast.vo
+L0 31
+Z1 OV;L;6.5b;42
+r1
+31
+o-vlog01compat -work work -O0
+!s100 ZdYH=BbL=bRFNCSko0L@d0
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vdecoder_tb
+Mx1 6 sv_std 3 std
+DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+!s100 ;Rjzk_9NcIBY8;D5PW_a[2
+IbZKCiQn2W6_>^EbbCI]6n1
+V=ka5g8LfkPkNOiWKG@ETE2
+S1
+w1527555047
+8C:/Users/Edimar/Desktop/ceci 2018/mips/decoder/testbench/decoder_tb.sv
+FC:/Users/Edimar/Desktop/ceci 2018/mips/decoder/testbench/decoder_tb.sv
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+o-sv -work work -O0
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/mips/decoder/testbench} -O0

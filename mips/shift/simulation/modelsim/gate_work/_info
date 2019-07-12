@@ -1,0 +1,38 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Edimar\Desktop\ceci 2018\mips\shift\simulation\modelsim
+vshift
+IIKS`HjzZi`?:8g]_;TLL62
+VzCI8EO6oUYf@?:G_6N8?l1
+w1526944167
+8shift_6_1200mv_85c_slow.vo
+Fshift_6_1200mv_85c_slow.vo
+L0 31
+Z1 OV;L;6.5b;42
+r1
+31
+o-vlog01compat -work work -O0
+!s100 jeihBbY8?O`mogERR<@d[0
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vshift_tb
+Mx1 6 sv_std 3 std
+DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+!s100 Z1?d7S@;gW>eiAGk3Go;C2
+I6Mc1kL5_DWEcTJ80SNU0b1
+VzXj1=IOA534FR2d1@E4Im2
+S1
+w1526941113
+8C:/Users/Edimar/Desktop/ceci 2018/mips/shift/testbench/shift_tb.sv
+FC:/Users/Edimar/Desktop/ceci 2018/mips/shift/testbench/shift_tb.sv
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+o-sv -work work -O0
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/mips/shift/testbench} -O0

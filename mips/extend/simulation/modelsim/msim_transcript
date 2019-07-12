@@ -1,0 +1,50 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do extend_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+C:/Users/Edimar/Desktop/ceci\ 2018/mips/extend {C:/Users/Edimar/Desktop/ceci 2018/mips/extend/extend.sv}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# 
+# vlog -sv -work work +incdir+C:/Users/Edimar/Desktop/ceci\ 2018/mips/extend/testbench {C:/Users/Edimar/Desktop/ceci 2018/mips/extend/testbench/extend_tb.sv}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module extend_tb
+# 
+# Top level modules:
+# 	extend_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc" tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb 
+# ** Error: (vsim-3170) Could not find 'C:\Users\Edimar\Desktop\ceci 2018\mips\extend\simulation\modelsim\rtl_work.tb'.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./extend_run_msim_rtl_verilog.do PAUSED at line 12
+vsim work.extend_tb
+# vsim work.extend_tb 
+# Loading sv_std.std
+# Loading work.extend_tb
+# Loading work.extend
+# ** Warning: (vsim-3009) [TSCALE] - Module 'extend' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /extend_tb/DUV
+add wave sim:/extend_tb/*
+# (vish-4014) No objects found matching '/extend_tb/*'.
+add wave sim:/extend_tb/*
+run -all
+# starting Test_bench
+# 000000000000000000000000000000000000000000000000
+# número de testes efetuados=  65536
+# número de erros encontrados=      0
+# teste encerrado com testvector=111111111111111111111111111111111111111111111111
+# Break in Module extend_tb at C:/Users/Edimar/Desktop/ceci 2018/mips/extend/testbench/extend_tb.sv line 60

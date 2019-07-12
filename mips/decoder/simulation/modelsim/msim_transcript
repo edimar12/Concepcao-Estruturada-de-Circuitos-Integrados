@@ -1,0 +1,64 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do decoder_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {decoder_min_1200mv_0c_fast.vo}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# 
+# vlog -sv -work work +incdir+C:/Users/Edimar/Desktop/ceci\ 2018/mips/decoder/testbench {C:/Users/Edimar/Desktop/ceci 2018/mips/decoder/testbench/decoder_tb.sv}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module decoder_tb
+# 
+# Top level modules:
+# 	decoder_tb
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc" tb
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps tb 
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Edimar  Hostname: DESKTOP-IPO5DVQ  ProcessID: 6888
+#           Attempting to use alternate WLF file "./wlft2xr200".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2xr200
+# ** Error: (vsim-3170) Could not find 'C:\Users\Edimar\Desktop\ceci 2018\mips\decoder\simulation\modelsim\gate_work.tb'.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./decoder_run_msim_gate_verilog.do PAUSED at line 12
+abort
+vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps gate_work.decoder_tb
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps gate_work.decoder_tb 
+# Loading sv_std.std
+# Loading gate_work.decoder_tb
+# Loading gate_work.decoder
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading instances from decoder_min_1200mv_0c_v_fast.sdo
+# Loading timing data from decoder_min_1200mv_0c_v_fast.sdo
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Edimar  Hostname: DESKTOP-IPO5DVQ  ProcessID: 6888
+#           Attempting to use alternate WLF file "./wlft18f2bm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft18f2bm
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /decoder_tb  File: C:/Users/Edimar/Desktop/ceci 2018/mips/decoder/testbench/decoder_tb.sv
+add wave sim:/decoder_tb/*
+run -all
+# starting Test_bench
+# 0000000000000000000000000000000000001
+# número de testes efetuados=     32
+# número de erros encontrados=      0
+# teste encerrado com testvector=1111110000000000000000000000000000000
+# Break in Module decoder_tb at C:/Users/Edimar/Desktop/ceci 2018/mips/decoder/testbench/decoder_tb.sv line 59

@@ -1,0 +1,93 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do acc_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {acc_min_1200mv_0c_fast.vo}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module acc
+# 
+# Top level modules:
+# 	acc
+# 
+# vlog -sv -work work +incdir+C:/Users/Edimar/Desktop/ceci\ 2018/add4acc/acc/testbench {C:/Users/Edimar/Desktop/ceci 2018/add4acc/acc/testbench/acc_tb.sv}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module acc_tb
+# 
+# Top level modules:
+# 	acc_tb
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc" acc
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps acc 
+# Loading work.acc
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# SDF 6.5b Compiler 2009.10 Oct  1 2009
+# 
+# Loading instances from acc_min_1200mv_0c_v_fast.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from acc_min_1200mv_0c_v_fast.sdo
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Edimar  Hostname: LAPTOP-UGSQ4VNG  ProcessID: 11692
+#           Attempting to use alternate WLF file "./wlfte04m5x".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfte04m5x
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /acc  File: acc_min_1200mv_0c_fast.vo
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 100ps gate_work.acc_tb
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 100ps gate_work.acc_tb 
+# Loading sv_std.std
+# Loading gate_work.acc_tb
+# Loading gate_work.acc
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading instances from acc_min_1200mv_0c_v_fast.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from acc_min_1200mv_0c_v_fast.sdo
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Edimar  Hostname: LAPTOP-UGSQ4VNG  ProcessID: 11692
+#           Attempting to use alternate WLF file "./wlftj7j4kg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftj7j4kg
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /acc_tb  File: C:/Users/Edimar/Desktop/ceci 2018/add4acc/acc/testbench/acc_tb.sv
+add wave sim:/acc_tb/*
+run -all
+# starting Test_bench
+# 00000xxxx
+# ** Error: counter=  0  y          0=0  y_esperado          0  =x
+#    Time: 15 ns  Scope: acc_tb File: C:/Users/Edimar/Desktop/ceci 2018/add4acc/acc/testbench/acc_tb.sv Line: 49
+# ** Error: counter=  0  y          1=0  y_esperado          1  =x
+#    Time: 15 ns  Scope: acc_tb File: C:/Users/Edimar/Desktop/ceci 2018/add4acc/acc/testbench/acc_tb.sv Line: 49
+# ** Error: counter=  0  y          2=0  y_esperado          2  =x
+#    Time: 15 ns  Scope: acc_tb File: C:/Users/Edimar/Desktop/ceci 2018/add4acc/acc/testbench/acc_tb.sv Line: 49
+# ** Error: counter=  0  y          3=0  y_esperado          3  =x
+#    Time: 15 ns  Scope: acc_tb File: C:/Users/Edimar/Desktop/ceci 2018/add4acc/acc/testbench/acc_tb.sv Line: 49
+# número de testes efetuados= 32
+# número de erros encontrados=  4
+# teste encerrado com testvector=111111111
+# Break in Module acc_tb at C:/Users/Edimar/Desktop/ceci 2018/add4acc/acc/testbench/acc_tb.sv line 61

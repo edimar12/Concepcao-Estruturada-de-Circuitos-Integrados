@@ -1,0 +1,38 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Edimar\Desktop\ceci 2018\mips\extend\simulation\modelsim
+vextend
+I9YZ]95k7og9BG94CTAo_h2
+Vo>3YWU]ZKZFe1FDdnbR973
+w1527093808
+8extend_6_1200mv_85c_slow.vo
+Fextend_6_1200mv_85c_slow.vo
+L0 31
+Z1 OV;L;6.5b;42
+r1
+31
+o-vlog01compat -work work -O0
+!s100 cz<`XblRFAzVgdhhVdgMW2
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vextend_tb
+Mx1 6 sv_std 3 std
+DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+!s100 7Ha6iEn:^H7fESDa^@D:z3
+I2_IW?E[<UPc_4E9i:19dE2
+V0o@[[NM@Rb]KkJ7j_P2212
+S1
+w1527093794
+8C:/Users/Edimar/Desktop/ceci 2018/mips/extend/testbench/extend_tb.sv
+FC:/Users/Edimar/Desktop/ceci 2018/mips/extend/testbench/extend_tb.sv
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+o-sv -work work -O0
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/mips/extend/testbench} -O0

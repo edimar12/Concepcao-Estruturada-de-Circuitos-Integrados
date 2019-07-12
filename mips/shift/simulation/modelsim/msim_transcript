@@ -1,0 +1,55 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do shift_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {shift_6_1200mv_85c_slow.vo}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module shift
+# 
+# Top level modules:
+# 	shift
+# 
+# vlog -sv -work work +incdir+C:/Users/Edimar/Desktop/ceci\ 2018/mips/shift/testbench {C:/Users/Edimar/Desktop/ceci 2018/mips/shift/testbench/shift_tb.sv}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module shift_tb
+# 
+# Top level modules:
+# 	shift_tb
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc" tb
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps tb 
+# ** Error: (vsim-3170) Could not find 'C:\Users\Edimar\Desktop\ceci 2018\mips\shift\simulation\modelsim\gate_work.tb'.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./shift_run_msim_gate_verilog.do PAUSED at line 12
+abort
+vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps gate_work.shift_tb
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps gate_work.shift_tb 
+# Loading sv_std.std
+# Loading gate_work.shift_tb
+# Loading gate_work.shift
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# SDF 6.5b Compiler 2009.10 Oct  1 2009
+# 
+# Loading instances from shift_6_1200mv_85c_v_slow.sdo
+# Loading timing data from shift_6_1200mv_85c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /shift_tb  File: C:/Users/Edimar/Desktop/ceci 2018/mips/shift/testbench/shift_tb.sv
+add wave sim:/shift_tb/*
+run -all
+# starting Test_bench
+# 0000000000000000000000000000000000000000000000000000000000000000
+# número de testes efetuados= 17
+# número de erros encontrados=  0
+# teste encerrado com testvector=1111111111111111111111111111111111111111111111111111111111111100
+# Break in Module shift_tb at C:/Users/Edimar/Desktop/ceci 2018/mips/shift/testbench/shift_tb.sv line 53

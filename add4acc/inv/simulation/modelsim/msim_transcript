@@ -1,0 +1,56 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do inv_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {inv_min_1200mv_0c_fast.vo}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module inv
+# 
+# Top level modules:
+# 	inv
+# 
+# vlog -sv -work work +incdir+C:/Users/Edimar/Desktop/ceci\ 2018/add4acc/inv/testbench {C:/Users/Edimar/Desktop/ceci 2018/add4acc/inv/testbench/inv_tb.sv}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module inv_tb
+# 
+# Top level modules:
+# 	inv_tb
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc" inv_tb
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps inv_tb 
+# Loading sv_std.std
+# Loading work.inv_tb
+# Loading work.inv
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# SDF 6.5b Compiler 2009.10 Oct  1 2009
+# 
+# Loading instances from inv_min_1200mv_0c_v_fast.sdo
+# Loading timing data from inv_min_1200mv_0c_v_fast.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /inv_tb  File: C:/Users/Edimar/Desktop/ceci 2018/add4acc/inv/testbench/inv_tb.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# starting Test_bench
+# 00001111
+# ** Error: counter= 0  y          3=x  y_esperado          3  =1
+#    Time: 15 ns  Scope: inv_tb File: C:/Users/Edimar/Desktop/ceci 2018/add4acc/inv/testbench/inv_tb.sv Line: 47
+# número de testes efetuados=16
+# número de erros encontrados= 1
+# teste encerrado com testvector=11110000
+# Break in Module inv_tb at C:/Users/Edimar/Desktop/ceci 2018/add4acc/inv/testbench/inv_tb.sv line 59
+# Simulation Breakpoint: Break in Module inv_tb at C:/Users/Edimar/Desktop/ceci 2018/add4acc/inv/testbench/inv_tb.sv line 59
+# MACRO ./inv_run_msim_gate_verilog.do PAUSED at line 17

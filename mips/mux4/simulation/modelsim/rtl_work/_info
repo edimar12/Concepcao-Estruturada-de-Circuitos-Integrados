@@ -1,0 +1,59 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Edimar\Desktop\ceci 2018\mips\mux4\simulation\modelsim
+vmux2
+Z1 Mx1 6 sv_std 3 std
+Z2 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+I^WLT4oTLKRZFY[C`jfCI43
+Vz@13:hTe>MOZj7:e:QTd12
+S1
+w1527018048
+8C:/Users/Edimar/Desktop/ceci 2018/mips/mux2/mux2.sv
+FC:/Users/Edimar/Desktop/ceci 2018/mips/mux2/mux2.sv
+L0 1
+Z3 OV;L;6.5b;42
+r1
+31
+Z4 o-sv -work work -O0
+!s100 RVIRRBO0P0m:WTA_[BA]13
+!s85 0
+!s101 -O0
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/mips/mux2} -O0
+vmux4
+R1
+R2
+I0VNPD30:E[EJEcm_:H<:R1
+VbQoT3>SzUQ@9]m@Dd;]je3
+S1
+w1527018058
+8C:/Users/Edimar/Desktop/ceci 2018/mips/mux4/mux4.sv
+FC:/Users/Edimar/Desktop/ceci 2018/mips/mux4/mux4.sv
+L0 1
+R3
+r1
+31
+R4
+!s100 7AcF=?@c1@QbIbBGKlh8d0
+!s85 0
+!s101 -O0
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/mips/mux4} -O0
+vmux4_tb
+R1
+R2
+!s100 WmF?@PZRzTmP;6ElIf1Z@3
+I7cHfMB6A_VY8kEL_:VCHi1
+VB]C>BGJg;0H1iMJYLoBcB2
+S1
+w1527018256
+8C:/Users/Edimar/Desktop/ceci 2018/mips/mux4/testbench/mux4_tb.sv
+FC:/Users/Edimar/Desktop/ceci 2018/mips/mux4/testbench/mux4_tb.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s101 -O0
+R4
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/mips/mux4/testbench} -O0

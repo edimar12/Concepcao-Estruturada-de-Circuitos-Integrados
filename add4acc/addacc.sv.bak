@@ -1,0 +1,15 @@
+module addacc(input logic [3:0] a,
+input logic clk,
+input logic s0,s1,
+output logic cout,
+output logic [3:0] y);
+
+logic [3:0] ainv, mux1, sum1, acc1;
+
+	inv invaddacc(a, ainv);
+	mux2 muxaddacc(a, ainv, s0, mux1);
+	acc accaddacc(y, clk, acc1);
+	sum sumaddacc(mux1, acc1, s0, sum1, cout);
+	mux2 muxaddacc2(mux1, sum1, s1, y);
+assign {cout,y[3:0]};
+endmodule

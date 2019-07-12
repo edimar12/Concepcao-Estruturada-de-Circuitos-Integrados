@@ -1,0 +1,14 @@
+module mux32#(parameter N = 32)(input logic[0:31][N-1:0] a,
+			input logic[0:4] s,
+			output logic [N-1:0]y);
+			
+	logic[N-1:0]out_0,out_1,out_2,out_3;
+	
+	mux8 #(N) lowmux8 (a[0:7], s[0:2], out_0);
+	mux8 #(N) highmux8 (a[8:15], s[0:2],out_1);
+	mux8 #(N) moremux8 (a[16:23], s[0:2], out_2);
+	mux8 #(N) moreemux8 (a[24:31], s[0:2], out_3);
+	mux4 #(N) finalmux4 (out_0,out_1,out_2,out_3,s[3:4],y);
+
+endmodule
+

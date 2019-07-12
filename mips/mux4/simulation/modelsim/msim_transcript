@@ -1,0 +1,70 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do mux4_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+C:/Users/Edimar/Desktop/ceci\ 2018/mips/mux2 {C:/Users/Edimar/Desktop/ceci 2018/mips/mux2/mux2.sv}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# vlog -sv -work work +incdir+C:/Users/Edimar/Desktop/ceci\ 2018/mips/mux4 {C:/Users/Edimar/Desktop/ceci 2018/mips/mux4/mux4.sv}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# 
+# vlog -sv -work work +incdir+C:/Users/Edimar/Desktop/ceci\ 2018/mips/mux4/testbench {C:/Users/Edimar/Desktop/ceci 2018/mips/mux4/testbench/mux4_tb.sv}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module mux4_tb
+# 
+# Top level modules:
+# 	mux4_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc" tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb 
+# ** Error: (vsim-3170) Could not find 'C:\Users\Edimar\Desktop\ceci 2018\mips\mux4\simulation\modelsim\rtl_work.tb'.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./mux4_run_msim_rtl_verilog.do PAUSED at line 13
+vsim work.mux4_tb
+# vsim work.mux4_tb 
+# Loading sv_std.std
+# Loading work.mux4_tb
+# Loading work.mux4
+# ** Warning: (vsim-3009) [TSCALE] - Module 'mux4' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /mux4_tb/DUV
+# Loading work.mux2
+# ** Warning: (vsim-3009) [TSCALE] - Module 'mux2' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /mux4_tb/DUV/mux2_1
+add wave sim:/mux4_tb/*
+add wave -r /*
+abort
+vsim work.mux4_tb
+# vsim work.mux4_tb 
+# Loading sv_std.std
+# Loading work.mux4_tb
+# Loading work.mux4
+# ** Warning: (vsim-3009) [TSCALE] - Module 'mux4' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /mux4_tb/DUV
+# Loading work.mux2
+# ** Warning: (vsim-3009) [TSCALE] - Module 'mux2' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /mux4_tb/DUV/mux2_1
+add wave -r /*
+run -all
+# starting Test_bench
+# 000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000
+# número de testes efetuados=        16
+# número de erros encontrados=         0
+# teste encerrado com testvector=111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000001100000000000000000000000000000000
+# Break in Module mux4_tb at C:/Users/Edimar/Desktop/ceci 2018/mips/mux4/testbench/mux4_tb.sv line 67

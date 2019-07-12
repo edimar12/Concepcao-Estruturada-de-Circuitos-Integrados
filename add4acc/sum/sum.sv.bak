@@ -1,0 +1,5 @@
+module sum(input [3:0] a,input [3:0] b,input cin, output [3:0] y,output cout);
+
+assign {cout,y[3:0]}= a+b+cin;
+
+endmodule 

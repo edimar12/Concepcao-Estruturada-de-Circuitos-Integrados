@@ -1,0 +1,56 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do mux2_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {mux2_min_1200mv_0c_fast.vo}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# 
+# vlog -sv -work work +incdir+C:/Users/Edimar/Desktop/ceci\ 2018/add4acc/mux2/testbench {C:/Users/Edimar/Desktop/ceci 2018/add4acc/mux2/testbench/mux2_tb.sv}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module mux2_tb
+# 
+# Top level modules:
+# 	mux2_tb
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc" tb
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps tb 
+# ** Error: (vsim-3170) Could not find 'C:\Users\Edimar\Desktop\ceci 2018\add4acc\mux2\simulation\modelsim\gate_work.tb'.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./mux2_run_msim_gate_verilog.do PAUSED at line 12
+abort
+vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 100ps gate_work.mux2_tb
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 100ps gate_work.mux2_tb 
+# Loading sv_std.std
+# Loading gate_work.mux2_tb
+# Loading gate_work.mux2
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# SDF 6.5b Compiler 2009.10 Oct  1 2009
+# 
+# Loading instances from mux2_min_1200mv_0c_v_fast.sdo
+# Loading timing data from mux2_min_1200mv_0c_v_fast.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /mux2_tb  File: C:/Users/Edimar/Desktop/ceci 2018/add4acc/mux2/testbench/mux2_tb.sv
+add wave sim:/mux2_tb/*
+run -all
+# starting Test_bench
+# 0000000000000
+# número de testes efetuados=    512
+# número de erros encontrados=      0
+# teste encerrado com testvector=1111111111111
+# Break in Module mux2_tb at C:/Users/Edimar/Desktop/ceci 2018/add4acc/mux2/testbench/mux2_tb.sv line 63

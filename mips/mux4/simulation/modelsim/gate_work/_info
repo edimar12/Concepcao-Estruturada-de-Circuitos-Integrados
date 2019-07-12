@@ -1,0 +1,38 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Edimar\Desktop\ceci 2018\mips\mux4\simulation\modelsim
+vmux4
+IBM?U7WT^SgcI?GXiFV[Ej3
+VbQoT3>SzUQ@9]m@Dd;]je3
+w1526503739
+8mux4_min_1200mv_0c_fast.vo
+Fmux4_min_1200mv_0c_fast.vo
+L0 31
+Z1 OV;L;6.5b;42
+r1
+31
+o-vlog01compat -work work -O0
+!s100 nlYmiNbWU9kF<M>PP>VRI2
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vmux4_tb
+Mx1 6 sv_std 3 std
+DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+!s100 WmF?@PZRzTmP;6ElIf1Z@3
+I7cHfMB6A_VY8kEL_:VCHi1
+VB]C>BGJg;0H1iMJYLoBcB2
+S1
+w1526503726
+8C:/Users/Edimar/Desktop/ceci 2018/mips/mux4/testbench/mux4_tb.sv
+FC:/Users/Edimar/Desktop/ceci 2018/mips/mux4/testbench/mux4_tb.sv
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+o-sv -work work -O0
+!s92 -sv -work work {+incdir+C:/Users/Edimar/Desktop/ceci 2018/mips/mux4/testbench} -O0
